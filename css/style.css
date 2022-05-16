@@ -282,6 +282,8 @@ header .info ul li:nth-child(3) a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #projects .item .inner-box .layer-bottom ul li {
@@ -308,8 +310,8 @@ header .info ul li:nth-child(3) a {
   background-color: white;
   color: black;
   font-weight: 600;
-  padding: 5px 10px;
-  font-size: .8rem;
+  padding: 5px 5px;
+  font-size: .5rem;
   margin: 0 5px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;

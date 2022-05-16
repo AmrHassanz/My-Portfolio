@@ -233,6 +233,7 @@ header{
                 ul{
                     display: flex;
                     align-items: center;
+                    flex-wrap: wrap;
                     li{
                         cursor: pointer;
                         a{
@@ -249,8 +250,8 @@ header{
                             background-color: white;
                             color: black;
                             font-weight: 600;
-                            padding: 5px 10px;
-                            font-size: .8rem;
+                            padding: 5px 5px;
+                            font-size: .5rem;
                             margin: 0 5px;
                             transition: all .5s ease;
                             border-radius: 5px;

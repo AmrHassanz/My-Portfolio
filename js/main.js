@@ -7,6 +7,9 @@ let color = document.querySelectorAll('.color');
 // WoW JS
 new WOW().init();
 
+// Popover
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 // Navbar & Colors
 tog.addEventListener('click', function (e) {
