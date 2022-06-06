@@ -229,12 +229,15 @@ header{
                 justify-content: center;
                 svg{
                     color: white;
+                    font-size: 1.5rem;
                     transition: all .5s ease;
+                    margin: .5rem;
                     &:hover{
                         color: $color3;
                     }
                 }
                 h5{
+                    font-size: 1rem;
                     color: $color3;
                     transition: all .5s ease;
                     cursor: pointer;
@@ -247,12 +250,12 @@ header{
                     opacity: 0;
                     li{
                         cursor: pointer;
-                        padding: .25rem .5rem;
+                        padding: .2rem .4rem;
                         margin: .1rem;
                         background-color: rgb(33, 32, 32);
                         color: white;
                         font-weight: bold;
-                        font-size: .75rem;
+                        font-size: .65rem;
                         border-radius: 5px;
                         transition: all .5s ease;
                         &:hover{
