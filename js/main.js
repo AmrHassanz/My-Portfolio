@@ -68,3 +68,46 @@ for (let i = 0; i < skills.length; i++) {
 }
 document.querySelector('.skill').innerHTML = cartoona;
 
+// Projects
+let projects = [
+    {
+        name:'Fokir - Landing Page',
+        image: 'imgs/fokir.PNG',
+        githPage: 'https://amrhassanz.github.io/Fokir/',
+        code: 'https://github.com/AmrHassanz/Fokir',
+        skills: ['HTML5', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome']
+    },
+    {
+        name:'Shortly - Link Shortner',
+        image: 'imgs/shortly.PNG',
+        githPage: 'https://amrhassanz.github.io/Link-Shortner/',
+        code: 'https://github.com/AmrHassanz/Link-Shortner/tree/master',
+        skills: ['React', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
+    }
+];
+let myProjects = '';
+for (let i = 0; i < projects.length; i++) {
+    myProjects += `
+    <div class="col-lg-6">
+    <div class="item">
+        <div class="inner-box">
+            <img src="${projects[i].image}" class="w-100" alt="Fokir">
+            <div class="layer">
+                <div class="w-50">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li><a href="${projects[i].githPage}" target="_blank"><i class="fa-brands fa-github fa-2x m-1"></i></a></li>
+                        <li><a href="${projects[i].code}" target="_blank"><i class="fa-solid fa-code fa-2x m-1"></i></a></li>
+                    </ul>
+                    <h5 class="fw-bold">${projects[i].name}</h5>
+                    <ul class="list-unstyled d-flex flex-wrap skills justify-content-center">
+                    ${projects[i].skills.map((skill) => { return `<li>${skill}</li>` })}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    `;
+}
+let project = document.getElementById('project').innerHTML = myProjects;
+
