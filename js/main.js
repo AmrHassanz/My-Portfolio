@@ -93,7 +93,7 @@ for (let i = 0; i < projects.length; i++) {
         <div class="inner-box">
             <img src="${projects[i].image}" class="w-100" alt="Fokir">
             <div class="layer">
-                <div class="w-50">
+                <div class="w-75">
                     <ul class="list-unstyled d-flex justify-content-center mb-1">
                         <li><a href="${projects[i].githPage}" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                         <li><a href="${projects[i].code}" target="_blank"><i class="fa-solid fa-code"></i></a></li>
