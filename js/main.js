@@ -71,19 +71,26 @@ document.querySelector('.skill').innerHTML = cartoona;
 // Projects
 let projects = [
     {
-        name:'Fokir - Landing Page',
+        name: 'Fokir - Landing Page',
         image: 'imgs/fokir.PNG',
         githPage: 'https://amrhassanz.github.io/Fokir/',
         code: 'https://github.com/AmrHassanz/Fokir',
         skills: ['HTML5', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome']
     },
     {
-        name:'Shortly - Link Shortner',
+        name: 'Shortly - Link Shortner',
         image: 'imgs/shortly.PNG',
         githPage: 'https://amrhassanz.github.io/Link-Shortner/',
         code: 'https://github.com/AmrHassanz/Link-Shortner/tree/master',
-        skills: ['React', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
-    }
+        skills: ['React', 'Context', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
+    },
+    {
+        name: 'Barberry - Ecommerce Store',
+        image: 'imgs/barberry.PNG',
+        githPage: 'https://amrhassanz.github.io/Barberry/',
+        code: '',
+        skills: ['React', 'Context', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome']
+    },
 ];
 let myProjects = '';
 for (let i = 0; i < projects.length; i++) {
