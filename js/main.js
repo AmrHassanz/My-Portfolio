@@ -75,21 +75,28 @@ let projects = [
         image: 'imgs/fokir.PNG',
         githPage: 'https://amrhassanz.github.io/Fokir/',
         code: 'https://github.com/AmrHassanz/Fokir',
-        skills: ['HTML5', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome']
+        skills: ['HTML5', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome']
     },
     {
         name: 'Shortly - Link Shortner',
         image: 'imgs/shortly.PNG',
         githPage: 'https://amrhassanz.github.io/Link-Shortner/',
         code: 'https://github.com/AmrHassanz/Link-Shortner/tree/master',
-        skills: ['React', 'Context', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
+        skills: ['React', 'Context', 'HTML', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
     },
     {
         name: 'Barberry - Ecommerce Store',
         image: 'imgs/barberry.PNG',
         githPage: 'https://amrhassanz.github.io/Barberry/',
-        code: '',
-        skills: ['React', 'Context', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'Fontawesome']
+        code: 'https://github.com/AmrHassanz/Barberry',
+        skills: ['React', 'Context', 'HTML', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome']
+    },
+    {
+        name: 'Portfolio - React Portfolio',
+        image: 'imgs/reactPortfolio.PNG',
+        githPage: 'https://amrhassanz.github.io/StartReact/',
+        code: 'https://github.com/AmrHassanz/StartReact',
+        skills: ['React', 'HTML', 'SASS', 'Framer-Motion', 'JavaScript', 'Bootstrap', 'Fontawesome']
     },
 ];
 let myProjects = '';
