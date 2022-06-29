@@ -138,6 +138,7 @@ header .info span {
 
 header .info p {
   letter-spacing: 1px;
+  text-align: justify;
 }
 
 header .info ul {
