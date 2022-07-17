@@ -98,6 +98,13 @@ let projects = [
         code: 'https://github.com/AmrHassanz/StartReact',
         skills: ['React', 'HTML', 'SASS', 'Framer-Motion', 'JavaScript', 'Bootstrap', 'Fontawesome']
     },
+    {
+        name: 'My Reads - Book Organizer',
+        image: 'imgs/my-reads.PNG',
+        githPage: 'https://amrhassanz.github.io/MyReads/',
+        code: 'https://github.com/AmrHassanz/MyReads',
+        skills: ['React', 'HTML', 'CSS', 'JavaScript']
+    },
 ];
 let myProjects = '';
 for (let i = 0; i < projects.length; i++) {
