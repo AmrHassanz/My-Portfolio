@@ -105,6 +105,13 @@ let projects = [
         code: 'https://github.com/AmrHassanz/MyReads',
         skills: ['React', 'HTML', 'CSS', 'JavaScript']
     },
+    {
+        name: 'Covid-19',
+        image: 'imgs/covid.PNG',
+        githPage: 'https://amrhassanz.github.io/Covid-19/',
+        code: 'https://github.com/AmrHassanz/Covid-19',
+        skills: ['React', 'react-reveal', 'react-countup', 'SASS', 'HTML', 'CSS', 'JavaScript']
+    },
 ];
 let myProjects = '';
 for (let i = 0; i < projects.length; i++) {
