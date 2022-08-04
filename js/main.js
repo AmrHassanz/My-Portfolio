@@ -55,8 +55,7 @@ let skills = [
     { icon: '<i class="fa-brands fa-github fa-2x ms-2 me-3"></i>', name: 'GIT & GITHUB' },
     { icon: '<i class="fa-brands fa-react fa-2x ms-2 me-3"></i>', name: 'REACT JS' },
     { icon: '<i class="fa-brands fa-node fa-2x ms-2 me-3"></i>', name: 'Node.js' },
-    { icon: '<i class="fa-brands fa-node fa-2x ms-2 me-3"></i>', name: 'Express
-    .js' },
+    { icon: '<i class="fa-brands fa-node fa-2x ms-2 me-3"></i>', name: 'Express.js' },
     { icon: '<i class="cib-mongodb fa-2x ms-2 me-3"></i>', name: 'MongoDB' },
     { icon: '<i class="cib-mongodb fa-2x ms-2 me-3"></i>', name: 'mongoose' },
 ]
