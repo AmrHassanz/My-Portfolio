@@ -53,7 +53,12 @@ let skills = [
     { icon: '<i class="fa-brands fa-sass fa-2x ms-2 me-3"></i>', name: 'SASS' },
     { icon: '<i class="bx bxs-file-json fa-2x ms-2 me-3" ></i>', name: 'JSON & AJAX & AXIOS' },
     { icon: '<i class="fa-brands fa-github fa-2x ms-2 me-3"></i>', name: 'GIT & GITHUB' },
-    { icon: '<i class="fa-brands fa-react fa-2x ms-2 me-3"></i>', name: 'REACT JS' }
+    { icon: '<i class="fa-brands fa-react fa-2x ms-2 me-3"></i>', name: 'REACT JS' },
+    { icon: '<i class="fa-brands fa-node fa-2x ms-2 me-3"></i>', name: 'Node.js' },
+    { icon: '<i class="fa-brands fa-node fa-2x ms-2 me-3"></i>', name: 'Express
+    .js' },
+    { icon: '<i class="cib-mongodb fa-2x ms-2 me-3"></i>', name: 'MongoDB' },
+    { icon: '<i class="cib-mongodb fa-2x ms-2 me-3"></i>', name: 'mongoose' },
 ]
 let cartoona = '';
 for (let i = 0; i < skills.length; i++) {
@@ -103,7 +108,7 @@ let projects = [
         image: 'imgs/my-reads.PNG',
         githPage: 'https://amrhassanz.github.io/MyReads/',
         code: 'https://github.com/AmrHassanz/MyReads',
-        skills: ['React', 'HTML', 'CSS', 'JavaScript']
+        skills: ['React', 'HTML', 'CSS', 'JavaScript', 'Drag & Drop']
     },
     {
         name: 'Covid-19',
