@@ -75,18 +75,11 @@ document.querySelector('.skill').innerHTML = cartoona;
 // Projects
 let projects = [
     {
-        name: 'Fokir - Landing Page',
-        image: 'imgs/fokir.PNG',
-        githPage: 'https://amrhassanz.github.io/Fokir/',
-        code: 'https://github.com/AmrHassanz/Fokir',
-        skills: ['HTML5', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome']
-    },
-    {
-        name: 'Shortly - Link Shortner',
-        image: 'imgs/shortly.PNG',
-        githPage: 'https://amrhassanz.github.io/Link-Shortner/',
-        code: 'https://github.com/AmrHassanz/Link-Shortner/tree/master',
-        skills: ['React', 'Context', 'HTML', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
+        name: 'Covid-19',
+        image: 'imgs/covid.PNG',
+        githPage: 'https://amrhassanz.github.io/Covid-19/',
+        code: 'https://github.com/AmrHassanz/Covid-19',
+        skills: ['React', 'react-reveal', 'react-countup', 'SASS', 'HTML', 'CSS', 'JavaScript']
     },
     {
         name: 'Barberry - Ecommerce Store',
@@ -96,13 +89,6 @@ let projects = [
         skills: ['React', 'Context', 'HTML', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome']
     },
     {
-        name: 'Portfolio - React Portfolio',
-        image: 'imgs/reactPortfolio.PNG',
-        githPage: 'https://amrhassanz.github.io/StartReact/',
-        code: 'https://github.com/AmrHassanz/StartReact',
-        skills: ['React', 'HTML', 'SASS', 'Framer-Motion', 'JavaScript', 'Bootstrap', 'Fontawesome']
-    },
-    {
         name: 'My Reads - Book Organizer',
         image: 'imgs/my-reads.PNG',
         githPage: 'https://amrhassanz.github.io/MyReads/',
@@ -110,11 +96,32 @@ let projects = [
         skills: ['React', 'HTML', 'CSS', 'JavaScript', 'Drag & Drop']
     },
     {
-        name: 'Covid-19',
-        image: 'imgs/covid.PNG',
-        githPage: 'https://amrhassanz.github.io/Covid-19/',
-        code: 'https://github.com/AmrHassanz/Covid-19',
-        skills: ['React', 'react-reveal', 'react-countup', 'SASS', 'HTML', 'CSS', 'JavaScript']
+        name: 'Shortly - Link Shortner',
+        image: 'imgs/shortly.PNG',
+        githPage: 'https://amrhassanz.github.io/Link-Shortner/',
+        code: 'https://github.com/AmrHassanz/Link-Shortner/tree/master',
+        skills: ['React', 'Context', 'HTML', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome', 'Joi', 'Axios']
+    },
+    {
+        name: 'Fokir - Landing Page',
+        image: 'imgs/fokir.PNG',
+        githPage: 'https://amrhassanz.github.io/Fokir/',
+        code: 'https://github.com/AmrHassanz/Fokir',
+        skills: ['HTML5', 'SASS', 'JavaScript', 'Bootstrap', 'Fontawesome']
+    },
+    {
+        name: 'Portfolio - React Portfolio',
+        image: 'imgs/reactPortfolio.PNG',
+        githPage: 'https://amrhassanz.github.io/StartReact/',
+        code: 'https://github.com/AmrHassanz/StartReact',
+        skills: ['React', 'HTML', 'SASS', 'Framer-Motion', 'JavaScript', 'Bootstrap', 'Fontawesome']
+    },
+    {
+        name: 'Weather Forecast',
+        image: 'imgs/weather.PNG',
+        githPage: 'https://amrhassanz.github.io/Weather/',
+        code: 'https://github.com/AmrHassanz/Weather',
+        skills: ['HTML', 'CSS', 'JavaScript', 'API']
     },
 ];
 let myProjects = '';
